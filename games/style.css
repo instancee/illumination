@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#games-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px;
+}
+
+.game-card {
+  width: 300px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+  text-align: center;
+}
+
+.game-card:hover {
+  transform: translateY(-5px);
+}
+
+h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.play-btn {
+  display: block;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.play-btn:hover {
+  background-color: #45a049;
+}
